@@ -5,7 +5,7 @@
         <style>
             .thumbnail {
                 width:300px;
-                height:300px;
+                height:200px;
                 object-fit:contain;
                 object-position: top;
                 display:block;
@@ -17,7 +17,8 @@
                 display:block;
             }
             .vtitle {
-                width:300px;
+                
+                font-weight:bold
             }
             .vauthor,.vstats {
                 display:block;
@@ -28,27 +29,56 @@
                 width:300px;
                 display:inline-block;
             }
+            .small-thumb {
+                width:70px;
+                height:70px;
+                border-radius:30px;
+            }
+            .v-pic{
+                display:inline-block;
+                width:70px;
+            }
+            .v-stat {
+                display:inline-block;
+                width:200px;
+            }
         </style>
     </header>
     <body>
   
         <input class="search-bar" type="text" placeholder="search">   
         
-        <div class="image-preview">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
- 
-        <p class="vtitle">Talking <strong>interesting </strong>tech with a couple of guys from Google</p>
-        <p class="vauthor">Donald A Zaremba</p>
-        <p class="vstats">3.4M views &#183; 6 months ago</p>
+    <div class="image-preview">
+        <div>
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        </div>
+        <div>
+            <div class="v-pic">
+                <img class="small-thumb" src="thumbnails/t1.jpg">
             </div>
+            <div class="v-stat">
+                <p class="vtitle">Talking <strong>interesting </strong>tech with a couple of guys from Google</p>
+                <p class="vauthor">Donald A Zaremba</p>
+                <p class="vstats">3.4M views &#183; 6 months ago</p>
+   
+            </div>
+            
+              
+          
+           
+    
+        </div>
+              </div>
 
             <div class="image-preview">
-                <img class="thumbnail" src="i1.jpeg">
+                <img class="thumbnail" src="thumbnails/i1.jpg">
          
                 <p class="vtitle">Talking <strong>interesting </strong>tech with a couple of guys from Google</p>
                 <p class="vauthor">Donald A Zaremba</p>
                 <p class="vstats">3.4M views &#183; 6 months ago</p>
                     </div>
-        
+                    <div class="author rwo">
+                       
+                    </div>      
     </body>
 </html>
