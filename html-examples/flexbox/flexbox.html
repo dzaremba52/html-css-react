@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <Title>Flexbox</Title>
+        <style>
+            .fb{
+                display:flex;
+                flex-direction:row;
+                margin-top:px;
+            }
+            .tool-cont-1 {
+                height:75px;
+                background-color:lightgray;
+                margin-top:20px;
+                display:flex;
+                flex-direction:row;
+                justify-content: center;;
+            }
+            .tool-cont-2 {
+                height:75px;
+                background-color:lightgray;
+                margin-top:20px;
+                display:flex;
+                flex-direction:row;
+                justify-content: space-evenly;
+            }
+            .tool-cont-3 {
+                height:75px;
+                background-color:lightgray;
+                margin-top:20px;
+                display:grid; 
+                grid-template-columns: 1fr 1fr
+
+            }
+
+        </style>
+    </header>
+    <body>
+        <div class="fb">
+            <div style="background-color:lightblue">div1</div>
+            <div style="background-color:lightcoral">div2<p>Here is is</p></div>
+        </div>
+
+        <div class="fb">
+            <div style="background-color:lightblue;width:100px">div1</div>
+            <div style="background-color:lightcoral;flex:1">div2<p>Here is is</p></div>
+        </div>
+
+        <div class="tool-cont-1">
+            <div style="background-color:lightblue;width:100px">div1</div>
+            <div style="background-color:lightcoral;width:100px">div1</div>
+            <div style="background-color:lightblue;width:100px">div1</div>
+        </div>
+
+        <div class="tool-cont-2">
+            <div style="background-color:lightblue;width:100px">div1</div>
+            <div style="background-color:lightcoral;width:100px">div1</div>
+            <div style="background-color:lightblue;width:100px">div1</div>
+        </div>
+        <div class="tool-cont-3">
+            <div style="display:flex;flex-direction:row">
+                <div style="background-color:lightblue;width:100px">div1</div>
+                <div style="background-color:lightcoral;width:100px">div1</div>
+                <div style="background-color:lightblue;width:100px">div1</div>
+                </div>
+            <div style="display:flex;flex-direction:row;justify-content:right">
+                    <div style="background-color:lightblue;width:100px;margin-left:25px">div1</div>
+                    <div style="background-color:lightcoral;width:100px;margin-left:25px">div1</div>
+                    <div style="background-color:lightblue;width:100px;margin-left:25px">div1</div>
+            </div>
+     
+        </div>
+      
+    </body>
+</html>
