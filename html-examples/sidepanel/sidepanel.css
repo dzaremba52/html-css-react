@@ -1,0 +1,35 @@
+.sidepanel {
+    position:fixed;
+    top:50px;
+    border-bottom-right-radius:10px;
+    bottom:0px;
+    width:190px;
+    left:0px;
+    border:solid;
+    border-width: 1px;
+    background-color: rgb(240,240,240);
+    transition: width 5000ms;
+    z-index: 200;
+  }
+  .right-nav-arrow {
+    position:fixed;
+    left:10px;
+    top:400px;
+    z-index:101;
+    display:block;
+}
+.left-nav-arrow {
+    position:fixed;
+    left:190px;
+    top:400px;
+    z-index:101;
+    display:block;
+}
+.arrow-icon {
+  height:30px;
+  margin-top:12px;
+  margin-left:20px;
+}
+.sideContainer {
+  background-color: blue;
+}

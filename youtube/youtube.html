@@ -2,51 +2,41 @@
 <html>
     <header>
         <title>My YouTube</title>
-        <style>
-            .thumbnail {
-                width:300px;
-                height:200px;
-                object-fit:contain;
-                object-position: top;
-                display:block;
-
-            }
-            .search-bar {
-                font-size: 20px;
-                margin-left:12px;
-                display:block;
-            }
-            .vtitle {
-                
-                font-weight:bold
-            }
-            .vauthor,.vstats {
-                display:block;
-            }
-            .image-preview {
-                border:solid;
-                border-color: red;
-                width:300px;
-                display:inline-block;
-            }
-            .small-thumb {
-                width:70px;
-                height:70px;
-                border-radius:30px;
-            }
-            .v-pic{
-                display:inline-block;
-                width:70px;
-            }
-            .v-stat {
-                display:inline-block;
-                width:200px;
-            }
-        </style>
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="sytlesheet" href="styles/sidebar.css">
     </header>
-    <body>
-  
-        <input class="search-bar" type="text" placeholder="search">   
+    <body style="padding-top:80px;padding-left:80px;">
+  <div class="header">
+    <div class="ls">
+        <img class="ham" src="thumbnails/hamburger-menu.svg">
+        <img class="youtube" src="thumbnails/youtube-logo.svg">
+    </div>
+    <div class="sidebar">
+        sidebar
+    </div>
+    <div class="ms">
+        <input class="search-bar" type="text" placeholder="Search">   
+        <button class="search-button">
+            <img class="search-icon" src="thumbnails/search.svg">
+        </button>
+        <botton class="voice-search">
+            <img class="voice-icon" src="thumbnails/voice-search-icon.svg">
+        </botton>
+    </div>
+    <div class="rs">
+        <div>
+            <img class="upload-icon" src="thumbnails/upload.svg">
+        </div>
+        <div class="notify-contain">
+            <img class="notify-icon" src="thumbnails/notifications.svg">
+            <div class="notify-count">
+                3
+            </div>
+        </div>
+    </div>
+  </div>
         
     <div class="image-preview">
         <div>
@@ -61,24 +51,79 @@
                 <p class="vauthor">Donald A Zaremba</p>
                 <p class="vstats">3.4M views &#183; 6 months ago</p>
    
-            </div>
-            
-              
-          
-           
-    
+            </div>    
         </div>
-              </div>
+    </div>
 
-            <div class="image-preview">
-                <img class="thumbnail" src="thumbnails/i1.jpg">
-         
+    <div class="image-preview">
+        <div class="iwrap">
+            <img class="thumbnail" src="thumbnails/i1.jpg">
+            <div class="video-time">1:03</div>
+        </div>
+        <div>
+            <div class="v-pic">
+                <img class="small-thumb" src="thumbnails/i1.jpg">
+           
+            </div>
+            <div class="v-stat">
                 <p class="vtitle">Talking <strong>interesting </strong>tech with a couple of guys from Google</p>
                 <p class="vauthor">Donald A Zaremba</p>
                 <p class="vstats">3.4M views &#183; 6 months ago</p>
-                    </div>
-                    <div class="author rwo">
-                       
-                    </div>      
+   
+            </div>    
+        </div>
+    </div>
+    <div class="image-preview">
+        <div>
+            <img class="thumbnail" src="thumbnails/i2.jpg">
+        </div>
+        <div>
+            <div class="v-pic">
+                <img class="small-thumb" src="thumbnails/i2.jpg">
+            </div>
+            <div class="v-stat">
+                <p class="vtitle">Talking <strong>interesting </strong>tech with a couple of guys from Google</p>
+                <p class="vauthor">Donald A Zaremba</p>
+                <p class="vstats">3.4M views &#183; 6 months ago</p>
+   
+            </div>    
+        </div>
+    </div>
+    <div class="image-preview">
+        <div class="iwrap">
+            <img class="thumbnail" src="thumbnails/i1.jpg">
+            <div class="video-time">1:03</div>
+        </div>
+        <div>
+            <div class="v-pic">
+                <img class="small-thumb" src="thumbnails/i1.jpg">
+           
+            </div>
+            <div class="v-stat">
+                <p class="vtitle">Talking <strong>interesting </strong>tech with a couple of guys from Google</p>
+                <p class="vauthor">Donald A Zaremba</p>
+                <p class="vstats">3.4M views &#183; 6 months ago</p>
+   
+            </div>    
+        </div>
+    </div>  <div class="image-preview">
+        <div class="iwrap">
+            <img class="thumbnail" src="thumbnails/i1.jpg">
+            <div class="video-time">1:03</div>
+        </div>
+        <div>
+            <div class="v-pic">
+                <img class="small-thumb" src="thumbnails/i1.jpg">
+           
+            </div>
+            <div class="v-stat">
+                <p class="vtitle">Talking <strong>interesting </strong>tech with a couple of guys from Google</p>
+                <p class="vauthor">Donald A Zaremba</p>
+                <p class="vstats">3.4M views &#183; 6 months ago</p>
+   
+            </div>    
+        </div>
+    </div>
+ 
     </body>
 </html>

@@ -1,0 +1,53 @@
+.sidepanel {
+    position:fixed;
+    top:50px;
+    border-bottom-right-radius:10px;
+    bottom:0px;
+    width:190px;
+    left:0px;
+    border:solid;
+    border-width: 1px;
+    background-color: rgb(240,240,240);
+    transition: width 100ms;
+    z-index: 200;
+    display: grid;
+    grid-template-columns: 180px 12px;
+  }
+  .right-nav-arrow {
+    position:fixed;
+    left:10px;
+    top:400px;
+    z-index:101;
+    display:block;
+}
+.left-nav-arrow {
+    position:fixed;
+    left:190px;
+    top:400px;
+    z-index:101;
+    display:block;
+}
+.left-arrow {
+  display: block;
+   
+}
+.nav-arrow {
+  height:14px;
+  margin-top: 400px;
+  cursor: pointer;
+}
+.right-arrow {
+  display: none;
+}
+ 
+ 
+.sideContainer {
+  background-color: blue;
+  
+}
+.nav-bar {
+  background-color: rgb(238, 228, 228);
+  margin-right:-4px;
+  cursor: pointer;
+  
+}

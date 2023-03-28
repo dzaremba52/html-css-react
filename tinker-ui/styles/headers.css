@@ -1,0 +1,35 @@
+.otop-header {
+    height:55px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color:white;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(230, 224, 224);
+    z-index:100;
+}
+.logo-icon-left {
+    height:32px;
+    margin-top: 12px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.logo-icon-right {
+    height:24px;
+    margin-top: 16px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.top-header {
+    height:55px;
+    background-color:lightgray;
+    margin-top:20px;
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr
+
+}

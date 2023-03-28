@@ -4,15 +4,35 @@
         <style>
             .main-grid {
                 display:grid;
-                grid-template-columns: 100px 100px 200px;
+                grid-template-columns: 100px 100px 200px 100px;
+            }
+            .fr-grid {
+                display:grid;
+                grid-template-columns: 100px 100px 1fr 50px;
+                column-gap: 20px;
             }
         </style>
     </header>
     <body>
         <div class="main-grid">
             <div style="background-color:lightblue">div1</div>
-            <div style="background-color: lightcoral;">div2</div>
+            <div style="background-color: lightcoral;">div2<p>text</p></div>
             <div style="background-color: lightgreen;">div2</div>
+        </div>       
+        <div class="main-grid" style="margin-top:20px;">
+            <div style="background-color:lightblue">div1</div>
+            <div style="background-color: lightcoral;">div2<p>text</p></div>
+            <div style="background-color: lightgreen;">div2</div>
+            <div style="background-color:lightslategrey">div4</div>
         </div>
+ 
+        <div class="fr-grid" style="margin-top:20px;">
+            <div style="background-color:lightblue">div1</div>
+            <div style="background-color: lightcoral;">div2<p>text</p></div>
+            <div style="background-color: lightgreen;">div2</div>
+            <div style="background-color:lightslategrey">div4</div>
+            
+        </div>
+
     </body>
 </html>

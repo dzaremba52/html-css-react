@@ -1,0 +1,43 @@
+.thumbnail {
+    width:300px;
+    height:200px;
+    object-fit:contain;
+    object-position: top;
+    display:block;
+
+}
+ .vauthor,.vstats {
+    display:block;
+}
+.image-preview {
+    border:solid;
+    border-color: red;
+    width:300px;
+    display:inline-block;
+    
+    
+}
+.video-time {
+    background-color:black;
+    color:white;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+.small-thumb {
+    width:70px;
+    height:70px;
+    border-radius:30px;
+}
+.v-pic{
+    display:inline-block;
+    width:70px;
+    
+}
+.v-stat {
+    display:inline-block;
+    width:200px;
+}
+.iwrap {
+    position:relative;
+}
